@@ -12,7 +12,8 @@ public class MyClass {
 
 		// In ra màn hình
 
-		System.out.println("HÔM NAY TÔI BẮT ĐẦU HỌC JAVA"); System.out.println("Tổng là:" + c);
+		System.out.println("HÔM NAY TÔI BẮT ĐẦU HỌC JAVA");
+		System.out.println("Tổng là:" + c);
 
 		}
 
