@@ -13,7 +13,19 @@
 	        float chieuCao = scanner.nextFloat();
 	        System.out.println("_____XUAT DU LIEU_____");
 	        float bmi = canNang / (chieuCao * chieuCao);
-	        System.out.printf("\n%s, Tuổi: %d\nBMI: %.2f\n", hoTen, tuoi, bmi);        
+	        System.out.println("\nHọ tên: " + hoTen);
+	        System.out.println("Tuổi: " + tuoi);
+	        System.out.println("Cân nặng: " + canNang + " kg");
+	        System.out.println("Chiều cao: " + chieuCao + " m");
+	        System.out.println("Chỉ số BMI: " + bmi);
+	        if (bmi < 18.5)
+	            System.out.println("Bạn gầy, nên tăng cân.");
+	        else if (bmi <= 24.9)
+	            System.out.println("BMI bình thường.");
+	        else if (bmi <= 29.9)
+	            System.out.println("Bạn thừa cân, nên tập thể dục.");
+	        else
+	            System.out.println("Bạn béo phì, cần giảm cân.");
 	        scanner.close();
 	    }
 }
