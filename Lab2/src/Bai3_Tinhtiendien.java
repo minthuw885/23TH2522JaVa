@@ -13,5 +13,5 @@ import java.util.Scanner;
 				System.out.println("Tiền điện phải trả: " + tien + " VND");
 			}
 	    
-	}
+	   }
 }
